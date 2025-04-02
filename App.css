@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5dcc5; /* Updated background color */
+  color: #6f4e37; /* Updated text color */
+}
+
+footer {
+  background-color: #b28dff; /* Set footer background color */
+  padding: 10px; /* Optional: Add padding for better appearance */
+  text-align: center; /* Center the text in the footer */
+}
+
+.navbar {
+  background-color: #e1bee7; /* Updated navigation menu background color */
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  position: relative; /* Position relative for dropdown */
+}
+
+.nav-links li ul {
+  display: none; /* Hide sub-tabs by default */
+  position: absolute; /* Position dropdown */
+  background-color: #f8f9fa; /* Background color for dropdown */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1; /* Ensure dropdown is above other content */
+}
+
+.nav-links li:hover ul {
+  display: block; /* Show sub-tabs on hover */
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #ec407a; /* Updated navigation menu text color */
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+h1, h2, h3, h4 {
+  color: #f98b8b; /* Updated title color */
+  text-align: center; /* Centering the headings */
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.read-the-docs {
+  color: #666;
+}
+
+.button-scroll-to-top {
+  background-color: #bc98f3; /* Updated button color */
+  border: none;
+  color: white; /* Text color */
+  text-align: center; /* Centered text */
+  padding: 15px; /* Padding around the text */
+  font-size: 24px; /* Font size */
+  font-weight: bold; /* Bold text */
+}
